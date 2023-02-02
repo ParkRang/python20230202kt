@@ -10,7 +10,5 @@ for i in range(0, len(data)-1) :
     else :
         r = r * int(data[i+1])
         d = d + ' x ' + data[i+1]
-#result = data
 result = r
-
 print(d + ' = ' + str(result))
