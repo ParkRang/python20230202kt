@@ -1,0 +1,13 @@
+# Q6 Answer template
+n = int(input('수를 입력하세요 : '))
+
+def solution(n):
+    answer = -1
+    for i in range(1, n+1) :
+        if i**2 == n :
+            return (i+1)**2
+        elif i**2 > n :
+            break
+    return answer
+
+print(f'{solution(n)}')
