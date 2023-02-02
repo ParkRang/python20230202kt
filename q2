@@ -1,0 +1,17 @@
+# Q2 Answer template
+
+N = int(input())
+N2 = N
+count = 0
+
+while(True) :
+    a = int(N2/10)
+    b = N2%10
+    c = a+b
+    c = c%10
+    N2 = b * 10 + c
+    count = count + 1
+    if N2 == N :
+        break
+
+print(count)
