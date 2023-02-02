@@ -1,0 +1,14 @@
+# Q5 Answer Template
+
+n = input('숫자를 입력하세요. ')
+a = 0
+for i in range(0, len(n)) :
+    if i<int(len(n)/2) :
+        a = a+int(n[i])
+    else :
+        a = a-int(n[i])
+        
+if a==0 :
+    print("LUCKY")
+else :
+    print("READY")
